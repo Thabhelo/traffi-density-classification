@@ -10,7 +10,6 @@ This notebook leverages a custom dataset collected from Singapore's Land Transpo
 - [Dataset Description](#dataset-description)
 - [Data Splitting](#data-splitting)
 - [Usage Instructions](#usage-instructions)
-- [Notebook Structure](#notebook-structure)
 - [Dependencies](#dependencies)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
@@ -67,25 +66,9 @@ This split enables effective model training while ensuring that performance metr
 3. **Run the Notebook:**
    - Follow the notebook sections sequentially to preprocess data, train the deep learning model, and evaluate its performance.
    - Modify parameters as needed to experiment with different model architectures or training configurations.
-
----
-
-## Notebook Structure
-
-- **Introduction & Setup:**  
-  Initial sections cover the project background and the necessary imports and configurations.
-  
-- **Data Loading & Preprocessing:**  
-  This section explains how the images are loaded, labeled, and preprocessed for model training.
-  
-- **Model Building & Training:**  
-  Detailed steps to define, compile, and train the deep learning model are provided.
-  
-- **Evaluation:**  
-  Evaluate model performance on the validation and testing datasets with comprehensive metrics.
-  
-- **Conclusion & Future Work:**  
-  Summarizes the findings and discusses potential improvements and next steps.
+     
+NB: 
+I had to subscribe to Google Colab’s premium tier to get faster GPU access for the convolutional neural network to handle high-resolution image classification. On my 2024 MacBook Air with the M3 chip — powerful as it is — the process could take around 20 hours. By switching to a cloud-based GPU (in this case, the NVIDIA P100), runtime drops to about 30–45 minutes. Colab’s architecture supports both Python and R, and grants up to 89.6 GB of RAM, making it a crucial resource for memory-intensive tasks. If you need to run something that pushes beyond what a local CPU can handle, I highly recommend it! If you think we are friends, let me know and I can grant you access to my paid subscription.
 
 ---
 
@@ -96,7 +79,7 @@ Ensure the following Python libraries are installed:
 - NumPy
 - Pandas
 - Matplotlib
-- OpenCV (if image processing is involved)
+- OpenCV
 
 You can install these dependencies via pip:
 
@@ -109,7 +92,7 @@ pip install tensorflow numpy pandas matplotlib opencv-python
 ## Acknowledgements
 
 - **Singapore Land Transport Authority (LTA):**  
-- **Sudhanshu Rastogi:**  
+- **Sudhanshu Rastogi:** 
 
 ---
 
