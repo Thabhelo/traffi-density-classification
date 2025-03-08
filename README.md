@@ -1,4 +1,4 @@
-# Deep Learning Traffic Density Notebook
+# Deep Learning - Traffic Density Classification
 
 This notebook leverages a custom dataset collected from Singapore's Land Transport Authority (LTA) API to build and evaluate deep learning models for traffic density classification. The images are labeled across five traffic density levels and are captured under varying conditions, including different lighting and camera angles.
 
@@ -109,17 +109,10 @@ pip install tensorflow numpy pandas matplotlib opencv-python
 ## Acknowledgements
 
 - **Singapore Land Transport Authority (LTA):**  
-  Thank you for providing the open-source API that enabled the collection of diverse and valuable traffic images.
-
-- **Community Contributions:**  
-  The efforts of all contributors who helped in manually labeling the dataset and providing insights for camera selection are gratefully acknowledged.
+- **Sudhanshu Rastogi:**  
 
 ---
 
 ## License
 
 This project is licensed under the MIT License. Please refer to the [LICENSE](LICENSE) file for details.
-
----
-
-This README provides a concise yet comprehensive guide to understanding and using the deep learning notebook for traffic density classification. For any further questions or contributions, please feel free to reach out via the repository's issue tracker or contact the project maintainers.
